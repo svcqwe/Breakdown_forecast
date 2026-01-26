@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Риск поломки</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .alert {
+            background-color: #1a1a1a;
+            padding: 40px;
+            max-width: none;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 35px;
+            border-bottom: 2px solid #cc6666;
+            padding-bottom: 15px;
+        }
+
+        .bell {
+            color: #cc6666;
+            font-size: 32px;
+            margin-right: 15px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #cc6666;
+        }
+
+        .sections-container {
+            display: inline-block;
+            text-align: left;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 20px;
+            margin-bottom: 15px;
+            font-weight: bold;
+            color: #d4b85a;
+            text-align: left;
+        }
+
+        .sub-list {
+            list-style: none;
+            line-height: 2;
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .sub-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            font-size: 18px;
+        }
+
+        .sub-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #ffffff;
+            font-size: 20px;
+        }
+
+        .sub-list li:last-child:before {
+            content: "●";
+        }
+    </style>
+</head>
+<body>
+    <div class="alert">
+        <div class="header">
+            <span class="title">Риск поломки: 12.2427%</span>
+        </div>
+        <div class="sections-container">
+            <div class="section">
+                <div class="section-title">Аномальные параметры линии:</div>
+                <ul class="sub-list">
+                    <li>Частота прохождения шарика/ролика по наружному кольцу в подшипнике на 1-ом шнеке</li>
+                    <li>Реальная долговечность подшиппника на 2-ом шнеке</li>
+                    <li>Частота прохождения шарика/ролика по внутреннему кольцу в подшипнике на 2-ом шнеке</li>
+                    <li>Частота прохождения шарика/ролика по внутреннему кольцу в подшипнике на 1-ом шнеке</li>
+                    <li>Реальная долговечность подшиппника на 1-ом шнеке</li>
+                </ul>
+            </div>
+            <div class="section">
+                <div class="section-title">Аномалии были зафиксированы в период с 2025-11-26 21:30:17 до 2025-11-26 21:30:50</div>
+            </div>
+            <div class="section">
+                <div class="section-title">Рекомендуемые действия:</div>
+                <ul class="sub-list">
+                    <li>снизить обороты</li>
+                    <li>проверить крепление</li>
+                    <li>Смазать подшипники</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

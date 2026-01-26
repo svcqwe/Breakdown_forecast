@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/compute" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/eigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/fast_double_parser" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/fast_double_parser/benchmarks/dependencies/abseil-cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/fast_double_parser/benchmarks/dependencies/double-conversion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/LightGBM/external_libs/fmt" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tensorflow_src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/FXdiv-source" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/abseil-cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/cpuinfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/eigen" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/farmhash" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/flatbuffers" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/gemmlowp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/ruy" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/ruy/third_party/cpuinfo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/ruy/third_party/googletest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/TF_Lite/tflite_build/xnnpack" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/External_c++_libs/libpqxx" vcs="Git" />
+  </component>
+</project>
